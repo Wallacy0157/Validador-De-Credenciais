@@ -1,3 +1,5 @@
 xxx.xx.x.xx
 xxx.xx.x.xx
 xxx.xx.x.xx
+
+Adicione seus IPs separados
