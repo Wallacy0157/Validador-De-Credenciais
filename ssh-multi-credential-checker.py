@@ -9,7 +9,7 @@ import sys
 from datetime import datetime
 from paramiko.ssh_exception import AuthenticationException, SSHException
 
-DEFAULT_IPS_PATH = "/home/wallacy/Documentos/Brute_Force_Linux/IPs.txt"
+DEFAULT_IPS_PATH = "/xxxxxx/xxxxxxx/xxxxxxx/xxxxxxxxx/xxxxxxx/ssh-multi-credential-checker.py/IPs;txt"
 
 DEFAULT_CREDS = [
     ("root", "root"),
@@ -138,7 +138,7 @@ def tentar_ssh_multi_all(ip, creds, port=22, timeout=6, cmd="uname -a && whoami"
 def main():
     parser = argparse.ArgumentParser(description="Bruteforce-like SSH checker (testa todas as credenciais por IP). Use com responsabilidade.")
     parser.add_argument("--ips-file", "-f", default=DEFAULT_IPS_PATH, help="Caminho do arquivo com IPs (uma linha por IP).")
-    parser.add_argument("--output", "-o", default="resultados_bruteforce.json", help="Arquivo JSON para salvar os resultados.")
+    parser.add_argument("--output", "-o", default="resultados_ssh.json", help="Arquivo JSON para salvar os resultados.")
     parser.add_argument("--cmd", "-c", default="uname -a && whoami", help="Comando a rodar no host remoto quando conectar (para trazer 'resultado do terminal').")
     parser.add_argument("--verbose", "-v", action="store_true", help="Mostrar logs verbosos no terminal.")
     parser.add_argument("--port", "-p", type=int, default=22, help="Porta SSH (padrão 22).")
