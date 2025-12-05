@@ -47,7 +47,7 @@ Ferramenta em Python para testar múltiplas credenciais SSH contra uma lista de 
 6) Instalar dependência (Paramiko)
 `pip install paramiko`
 
-▶️ Como executar
+▶️  Como executar
 
 Execução padrão:
 
