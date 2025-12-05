@@ -25,12 +25,13 @@ Ferramenta em Python para testar múltiplas credenciais SSH contra uma lista de 
 ---
 
 ## 📁 Estrutura recomendada
-
-- `ssh-multi-credential-checker.py`
-- `IPs.txt`
-- `resultados_ssh.json # gerado automaticamente`
-- `README.md`
-- `venv/ # ambiente virtual`
+```xml
+ssh-multi-credential-checker.py
+IPs.txt
+resultados_ssh.json # gerado automaticamente
+README.md
+venv/ # ambiente virtual
+```
 
 ## 🔧 Instalação (Linux)
 
